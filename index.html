@@ -4,40 +4,130 @@
   <meta charset="UTF-8">
   <title>Cheri Beda | Data Science Portfolio</title>
   <style>
+    /* === Global Styles === */
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #fdfefe;
+      color: #003333;
+      line-height: 1.6;
     }
+
+    /* === Header === */
     header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
+      background-color: #00b4b4;
+      color: white;
       text-align: center;
+      padding: 40px 20px;
     }
+
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    header img {
+      width: 180px;
+      border-radius: 50%;
+      margin-top: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* === Navigation === */
     nav {
-      background-color: #444;
+      background-color: #007f7f;
       display: flex;
       justify-content: center;
-      padding: 10px 0;
+      padding: 12px 0;
     }
+
     nav a {
-      color: #fff;
+      color: white;
       text-decoration: none;
-      margin: 0 15px;
+      margin: 0 20px;
       font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
     }
+
     nav a:hover {
+      color: #ff6b6b;
+    }
+
+    /* === Sections === */
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: #f2fefe;
+    }
+
+    section h2 {
+      color: #007f7f;
+      font-size: 2em;
+      border-bottom: 2px solid #00b4b4;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 25px;
+    }
+
+    a {
+      color: #007f7f;
+    }
+
+    a:hover {
+      color: #ff6b6b;
+    }
+
+    /* === Contact Section === */
+    #contact {
+      background-color: #e8fafa;
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+      border-top: 3px solid #00b4b4;
+    }
+
+    #contact ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    #contact li {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+    #contact a {
+      color: #007f7f;
+      text-decoration: none;
+    }
+
+    #contact a:hover {
+      color: #ff6b6b;
       text-decoration: underline;
     }
-    section {
-      padding: 40px;
-    }
-    h2 {
-      color: #333;
-    }
-    ul {
-      padding-left: 20px;
+
+    /* === Responsive === */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      header img {
+        width: 140px;
+      }
     }
   </style>
 </head>
@@ -45,6 +135,7 @@
 
   <header>
     <h1>Cheri Beda</h1>
+    <img src="cb.JPG" alt="Cheri Beda">
     <p>Data Science | Fundraising Strategy | Predictive Analytics</p>
   </header>
 
@@ -66,6 +157,14 @@
       <li><strong>TSA Complaint Forecasting</strong>: <a href="https://cheribeda.github.io/airport-complaints/" target="_blank">View Live Project</a></li>
       <li><strong>Netflix Horror Data Pitch</strong>: <a href="https://github.com/cheribeda/work/tree/main/Netflix" target="_blank">View Project</a></li>
       <li><strong>Customer Churn Prediction</strong>: <a href="https://github.com/cheribeda/datamining" target="_blank">View Project</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have a question or want to connect? I'd love to hear from you. Reach me at:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:cheri.l.beda@gmail.com">cheri.l.beda@gmail.com</a></li>
     </ul>
   </section>
 
