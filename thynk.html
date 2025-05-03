@@ -45,6 +45,23 @@
       margin-top: 40px;
       display: block;
     }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      margin: 20px 0;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   </style>
 </head>
 <body>
@@ -58,17 +75,23 @@
     <h3>🎬 Featured Movie Poster</h3>
     <img src="images/Thynk%20Unlimited%20Poster.png" alt="Custom horror movie poster for Thynk Unlimited">
 
+    <h3>🎥 Full Presentation</h3>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/F9NRcLjUrlA"
+              title="Thynk Unlimited Presentation"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+      </iframe>
+    </div>
+
     <h3>📈 Key Features</h3>
     <ul>
       <li>Analyzed weekly Top 10 Netflix horror content globally</li>
       <li>Identified viewing behavior patterns by country and genre</li>
-      <li>Created visualizations: bar charts, line graphs, heatmaps</li>
       <li>Built forecasting models using Prophet</li>
       <li>Developed a white paper as a Netflix proposal</li>
     </ul>
-
-    <h3>🖼️ Data Visualization Sample</h3>
-    <img src="images/thynk-chart.png" alt="Chart showing horror genre viewing trends on Netflix">
 
     <h3>📄 Downloadable Files</h3>
     <p>
