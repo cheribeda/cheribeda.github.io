@@ -8,30 +8,37 @@
       font-family: 'Segoe UI', Tahoma, sans-serif;
       margin: 0;
       padding: 0;
-      background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
-      background-color: #f9f9f9;
-      color: #222;
-      line-height: 1.6;
+      background-image: url('https://images.unsplash.com/photo-1587691592099-d68d7d0f6c63?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: #f0f0f0;
     }
 
-    header {
-      background-color: rgba(0, 0, 0, 0.85);
-      color: #fff;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.5em;
-      margin: 0;
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+      padding: 40px;
     }
 
     .container {
-      padding: 40px;
       max-width: 800px;
       margin: auto;
       background-color: rgba(255, 255, 255, 0.9);
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      color: #333;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #00796b;
     }
 
     a {
@@ -44,7 +51,7 @@
     }
 
     pre {
-      background-color: #eef1f4;
+      background-color: #f4f4f4;
       padding: 15px;
       border-left: 4px solid #00796b;
       overflow-x: auto;
@@ -52,16 +59,13 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>🎬 Movie Recommender System</h1>
-    <p>Discover films based on your favorites — powered by data.</p>
-  </header>
+  <div class="overlay">
+    <div class="container">
+      <h1>🎬 Movie Recommender System</h1>
+      <p>This project uses the MovieLens dataset to recommend movies based on collaborative filtering using cosine similarity. It’s built in Python using pandas and scikit-learn.</p>
 
-  <div class="container">
-    <p>This project uses the MovieLens dataset to recommend movies based on collaborative filtering using cosine similarity. It’s built in Python using pandas and scikit-learn.</p>
-
-    <h2>⚙️ How It Works</h2>
-    <pre><code># Sample Input:
+      <h2>⚙️ How It Works</h2>
+      <pre><code># Sample Input:
 Enter a movie you like:
 > Toy Story (1995)
 
@@ -72,16 +76,17 @@ Top 10 recommendations:
 3. Finding Nemo (2003)
 ...</code></pre>
 
-    <h2>▶️ Run It Live</h2>
-    <p><a href="https://colab.research.google.com/github/cheribeda/Movie-Recommender-System-using-MovieLens-Data/blob/main/Movie-Recommender-System" target="_blank">
-      🔗 Open in Google Colab
-    </a></p>
+      <h2>▶️ Run It Live</h2>
+      <p><a href="https://colab.research.google.com/github/cheribeda/Movie-Recommender-System-using-MovieLens-Data/blob/main/Movie-Recommender-System" target="_blank">
+        🔗 Open in Google Colab
+      </a></p>
 
-    <p><a href="https://github.com/cheribeda/Movie-Recommender-System-using-MovieLens-Data" target="_blank">
-      📂 View Full Project on GitHub
-    </a></p>
+      <p><a href="https://github.com/cheribeda/Movie-Recommender-System-using-MovieLens-Data" target="_blank">
+        📂 View Full Project on GitHub
+      </a></p>
 
-    <p><a href="index.html">← Back to Portfolio</a></p>
+      <p><a href="index.html">← Back to Portfolio</a></p>
+    </div>
   </div>
 </body>
 </html>
