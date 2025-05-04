@@ -8,41 +8,38 @@
       font-family: 'Segoe UI', Tahoma, sans-serif;
       margin: 0;
       padding: 0;
-      background-image: url('https://images.unsplash.com/photo-1587691592099-d68d7d0f6c63?auto=format&fit=crop&w=1600&q=80');
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center;
+      background-image: url('https://www.transparenttextures.com/patterns/film.png'); /* Subtle film strip pattern */
+      background-color: #1c1c1c; /* dark background for horror vibe */
       color: #f0f0f0;
+      line-height: 1.6;
     }
 
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.7);
-      min-height: 100vh;
-      padding: 40px;
+    header {
+      background-color: #000;
+      color: #ff4c4c; /* blood red accent */
+      padding: 60px 20px;
+      text-align: center;
+      background-image: linear-gradient(to right, #000 0%, #2c2c2c 100%);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      font-family: 'Georgia', serif;
+      letter-spacing: 1px;
     }
 
     .container {
+      padding: 40px;
       max-width: 800px;
       margin: auto;
-      background-color: rgba(255, 255, 255, 0.9);
-      color: #333;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    }
-
-    h1 {
-      font-size: 2.5em;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      color: #00796b;
+      background-color: rgba(0, 0, 0, 0.8);
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
     }
 
     a {
-      color: #00796b;
+      color: #ff4c4c;
       text-decoration: none;
     }
 
@@ -51,42 +48,45 @@
     }
 
     pre {
-      background-color: #f4f4f4;
+      background-color: #2e2e2e;
+      color: #ffffff;
       padding: 15px;
-      border-left: 4px solid #00796b;
+      border-left: 4px solid #ff4c4c;
       overflow-x: auto;
     }
   </style>
 </head>
 <body>
-  <div class="overlay">
-    <div class="container">
-      <h1>🎬 Movie Recommender System</h1>
-      <p>This project uses the MovieLens dataset to recommend movies based on collaborative filtering using cosine similarity. It’s built in Python using pandas and scikit-learn.</p>
+  <header>
+    <h1>🎬 Movie Recommender System</h1>
+    <p>Inspired by spine-chilling horror classics and powered by data.</p>
+  </header>
 
-      <h2>⚙️ How It Works</h2>
-      <pre><code># Sample Input:
-Enter a movie you like:
-> Toy Story (1995)
+  <div class="container">
+    <p>This project uses the MovieLens dataset to recommend films based on your preferences. It uses collaborative filtering and cosine similarity to match viewers with similar tastes.</p>
+
+    <h2>🧟 Example: Like Scary Movies?</h2>
+    <pre><code># Input:
+> The Conjuring (2013)
 
 # Output:
-Top 10 recommendations:
-1. A Bug's Life (1998)
-2. Monsters, Inc. (2001)
-3. Finding Nemo (2003)
+Recommended for you:
+1. Insidious (2010)
+2. Sinister (2012)
+3. Paranormal Activity (2007)
+4. The Babadook (2014)
 ...</code></pre>
 
-      <h2>▶️ Run It Live</h2>
-      <p><a href="https://colab.research.google.com/github/cheribeda/Movie-Recommender-System-using-MovieLens-Data/blob/main/Movie-Recommender-System" target="_blank">
-        🔗 Open in Google Colab
-      </a></p>
+    <h2>▶️ Try It Out</h2>
+    <p><a href="https://colab.research.google.com/github/cheribeda/Movie-Recommender-System-using-MovieLens-Data/blob/main/Movie-Recommender-System" target="_blank">
+      🔗 Open in Google Colab
+    </a></p>
 
-      <p><a href="https://github.com/cheribeda/Movie-Recommender-System-using-MovieLens-Data" target="_blank">
-        📂 View Full Project on GitHub
-      </a></p>
+    <p><a href="https://github.com/cheribeda/Movie-Recommender-System-using-MovieLens-Data" target="_blank">
+      📂 View Full Project on GitHub
+    </a></p>
 
-      <p><a href="index.html">← Back to Portfolio</a></p>
-    </div>
+    <p><a href="index.html">← Back to Portfolio</a></p>
   </div>
 </body>
 </html>
