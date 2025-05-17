@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Children & Cost: U.S. Childcare Burden</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #006D77;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #006D77;
+    }
+
+    a {
+      color: #028090;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .video {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Children & Cost: U.S. Childcare Burden</h1>
+    <p>Helping Families Make Informed Relocation Decisions</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>📌 Project Summary</h2>
+      <p>This project explores the high cost of childcare across the U.S., empowering families to make informed choices when relocating. Using a data-informed brochure and a short-form video, it highlights regional affordability and actionable insights.</p>
+    </section>
+
+    <section>
+      <h2>🗂️ Project Components</h2>
+      <ul>
+        <li><a href="Childcare.final.pdf" target="_blank">📄 White Paper (PDF)</a> – Full narrative and findings</li>
+        <li><a href="Childcare%20Brochure.pdf" target="_blank">📘 Brochure (PDF)</a> – Print-ready guide for families</li>
+        <li><a href="https://youtube.com/shorts/5bBoA9YRi-w" target="_blank">🎬 Video Reel (YouTube)</a> – 30-second summary for social media</li>
+      </ul>
+    </section>
+
+    <section class="video">
+      <iframe src="https://www.youtube.com/embed/5bBoA9YRi-w" title="YouTube video player" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>🎯 Target Audience</h2>
+      <ul>
+        <li>Parents of young children</li>
+        <li>Relocation advisors</li>
+        <li>Community organizations</li>
+        <li>Childcare providers</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📚 Reference</h2>
+      <p>U.S. Department of Labor, National Database of Childcare Prices (2020)</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Cheri Beda | <a href="https://github.com/cheribeda/U.S.-Childcare-Burden" target="_blank">GitHub Repository</a></p>
+  </footer>
+
+</body>
+</html>
 
