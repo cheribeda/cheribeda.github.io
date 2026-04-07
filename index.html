@@ -4,74 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cheri Beda | Portfolio</title>
+
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
       background-color: #fdfefe;
       color: #003333;
-      line-height: 1.6;
+      line-height: 1.5;
     }
 
     header {
       background-color: #00b4b4;
       color: white;
       text-align: center;
-      padding: 40px 20px;
+      padding: 35px 20px;
     }
 
     header h1 {
-      font-size: 2.8em;
+      font-size: 2.5em;
       margin: 0;
     }
 
     header p {
-      font-size: 1.2em;
+      font-size: 1.1em;
       margin: 10px 0;
     }
 
     header img {
-      width: 180px;
+      width: 160px;
       border-radius: 50%;
-      margin-top: 15px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      margin-top: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
 
     .resume-button {
       display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #ffffff;
+      margin-top: 12px;
+      padding: 8px 18px;
+      background-color: white;
       color: #00b4b4;
-      border: 2px solid #ffffff;
       border-radius: 5px;
-      text-decoration: none;
       font-weight: bold;
-      transition: background-color 0.3s, color 0.3s;
+      text-decoration: none;
     }
 
     .resume-button:hover {
       background-color: #ff6b6b;
       color: white;
-      border-color: #ff6b6b;
     }
 
     nav {
       background-color: #007f7f;
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      padding: 12px 0;
+      padding: 10px;
     }
 
     nav a {
       color: white;
+      margin: 0 15px;
       text-decoration: none;
-      margin: 0 20px;
       font-weight: bold;
-      font-size: 1.1em;
-      transition: color 0.3s;
     }
 
     nav a:hover {
@@ -79,7 +73,7 @@
     }
 
     section {
-      padding: 50px 20px;
+      padding: 30px 20px;
       max-width: 900px;
       margin: auto;
       background-color: #f2fefe;
@@ -87,19 +81,21 @@
 
     section h2 {
       color: #007f7f;
-      font-size: 2em;
       border-bottom: 2px solid #00b4b4;
-      padding-bottom: 10px;
-      margin-bottom: 25px;
+      padding-bottom: 6px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 15px;
     }
 
     ul {
-      list-style-type: square;
-      padding-left: 25px;
+      padding-left: 20px;
     }
 
     li {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
 
     a {
@@ -112,102 +108,90 @@
 
     #contact {
       background-color: #e8fafa;
-      padding: 50px 20px;
-      max-width: 900px;
-      margin: auto;
       border-top: 3px solid #00b4b4;
-    }
-
-    #contact ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-
-    #contact li {
-      margin-bottom: 10px;
-      font-size: 1.1em;
-    }
-
-    #contact a {
-      color: #007f7f;
-      text-decoration: none;
-    }
-
-    #contact a:hover {
-      color: #ff6b6b;
-      text-decoration: underline;
     }
 
     @media (max-width: 600px) {
       nav {
         flex-direction: column;
-        gap: 10px;
-      }
-
-      header img {
-        width: 140px;
-      }
-
-      header h1 {
-        font-size: 2.2em;
+        align-items: center;
       }
     }
   </style>
 </head>
+
 <body>
 
-  <header>
-    <h1>Cheri Beda</h1>
-    <img src="cb.JPG" alt="Portrait of Cheri Beda">
-    <p>Data Analysis | Pattern Recognition | Data Storytelling | Strategic Insights</p>
-    <a class="resume-button" href="Cheri_Beda_Resume.pdf" download>Download My Resume (Updated 2026)</a>
-  </header>
+<header>
+  <h1>Cheri Beda</h1>
+  <img src="cb.JPG" alt="Cheri Beda">
+  <p>Data Analysis | Pattern Recognition | Data Storytelling | Strategic Insights</p>
+  <a class="resume-button" href="Cheri_Beda_Resume.pdf" download>
+    Download My Resume (Updated 2026)
+  </a>
+</header>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="https://github.com/cheribeda" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/cheri-beda-ou812/" target="_blank">LinkedIn</a>
-  </nav>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="https://github.com/cheribeda" target="_blank">GitHub</a>
+  <a href="https://www.linkedin.com/in/cheri-beda-ou812/" target="_blank">LinkedIn</a>
+</nav>
 
-  <section id="home">
-    <h2>Welcome</h2>
-    <p>Hi, I’m Cheri, a lifelong learner with a passion for applying data analysis, pattern recognition, and storytelling to uncover insights and support data-driven decision-making. With a background in education, nonprofit leadership, and donor engagement, I use analytics to interpret complex information and communicate findings in ways that are clear, meaningful, and actionable.</p>
-    <p>This portfolio showcases a range of data-driven projects, including forecasting, visualization, and machine learning using Python. Projects are presented with interactive visuals and summaries created in PowerPoint and Adobe Express.</p>
-  </section>
+<section id="home">
+  <h2>Welcome</h2>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a strategist, storyteller, and maximizer who thrives at the intersection of data and community. My background includes more than a decade of experience leading engagement and fundraising initiatives in education and nonprofit settings, always with a mission-driven mindset.</p>
-    <p>As a data science professional, I bring curiosity and clarity to complex problems. I enjoy using Python, Excel, and visualization tools like Tableau to identify patterns, explain trends, and make insights accessible.</p>
-    <p>My top CliftonStrengths are <strong>Input</strong>, <strong>Strategic</strong>, <strong>Learner</strong>, <strong>Maximizer</strong>, and <strong>Achiever</strong>. These qualities shape how I gather information, think through problems, improve processes, and turn ideas into action.</p>
-    <p>Outside of work, I enjoy fitness challenges, family adventures, and good coffee.</p>
-  </section>
+  <p>Hi, I’m Cheri, a lifelong learner with a passion for applying data analysis, pattern recognition, and storytelling to uncover insights and support data-driven decision-making. With a background in education, nonprofit leadership, and donor engagement, I use analytics to interpret complex information and communicate findings in ways that are clear, meaningful, and actionable.</p>
 
-  <section id="projects">
-    <h2>Featured Projects</h2>
-    <ul>
-      <li><strong>Unpacking TSA Complaints:</strong> <a href="https://cheribeda.github.io/airport-complaints/" target="_blank">View Project</a> — Forecasts TSA complaints using time series models and visual storytelling.</li>
-      <li><strong>Thynk Unlimited:</strong> <a href="thynk.html" target="_blank">View Project</a> — A horror trilogy pitch powered by Netflix viewership trends and strategic storytelling.</li>
-      <li><strong>Sales Synergy: Walmart Forecasting:</strong> <a href="sales.html" target="_blank">View Project</a> — Predicts Walmart weekly sales using XGBoost and time series features.</li>
-      <li><strong>White House Visitor Logs:</strong> <a href="whitehouse.html" target="_blank">View Project</a> — Processes and visualizes multi-year White House visitor data to uncover trends and insights.</li>
-      <li><strong>Movie Recommender System:</strong> <a href="recommender.html" target="_blank">View Project</a> — Collaborative filtering recommendation engine using the MovieLens dataset.</li>
-      <li><strong>MLB Attendance Trends:</strong> <a href="mlb.html" target="_blank">View Project</a> — Visual analysis of Dodgers 2022 game attendance with weather, promotions, and opponent data.</li>
-      <li><strong>Fuel Efficiency: MPG Prediction:</strong> <a href="MPG.html" target="_blank">View Project</a> — Predicts miles per gallon using linear regression and random forest based on vehicle attributes.</li>
-      <li><strong>Bricks of Time: LEGO Dataset Exploration:</strong> <a href="lego.html" target="_blank">View Project</a> — Examines trends in LEGO set complexity and theme popularity using Python visualizations and storytelling.</li>
-      <li><strong>Customer Churn Prediction:</strong> <a href="churn.html" target="_blank">View Project</a> — Random Forest modeling of customer attrition with business insights and feature importance analysis.</li>
-      <li><strong>Children & Cost: U.S. Childcare Burden:</strong> <a href="childcare.html" target="_blank">View Project</a> — Brochure and video-based storytelling on childcare affordability across the U.S.</li>
-    </ul>
-  </section>
+  <p>This portfolio showcases a range of data-driven projects, including forecasting, visualization, and machine learning using Python. Projects are presented with interactive visuals and summaries created in PowerPoint and Adobe Express.</p>
+</section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Have a question or want to connect? Feel free to reach out:</p>
-    <ul>
-      <li><strong>Email:</strong> <a href="mailto:cheri.l.beda@gmail.com">cheri.l.beda@gmail.com</a></li>
-    </ul>
-  </section>
+<section id="about">
+  <h2>About Me</h2>
+
+  <p>I’m a strategist, storyteller, and maximizer who thrives at the intersection of data and community. My background includes over a decade of experience leading alumni engagement and fundraising initiatives across education and nonprofit settings, always with a mission-driven mindset.</p>
+
+  <p>As a data science professional, I bring curiosity and clarity to complex problems. I enjoy using Python, Excel, and visualization tools like Tableau to identify patterns, explain trends, and make insights accessible and actionable.</p>
+
+  <p>My top CliftonStrengths are <strong>Input</strong>, <strong>Strategic</strong>, <strong>Learner</strong>, <strong>Maximizer</strong>, and <strong>Achiever</strong>.</p>
+
+  <p>Outside of work, I enjoy fitness challenges, family adventures, and good coffee.</p>
+</section>
+
+<section id="projects">
+  <h2>Featured Projects</h2>
+
+  <ul>
+    <li><strong>Unpacking TSA Complaints:</strong> <a href="https://cheribeda.github.io/airport-complaints/" target="_blank">View Project</a> — Forecasts TSA complaints using time series models.</li>
+
+    <li><strong>Thynk Unlimited:</strong> <a href="thynk.html" target="_blank">View Project</a> — Netflix data storytelling and trend analysis.</li>
+
+    <li><strong>Sales Synergy: Walmart Forecasting:</strong> <a href="sales.html" target="_blank">View Project</a> — Predicts weekly sales using XGBoost.</li>
+
+    <li><strong>White House Visitor Logs:</strong> <a href="whitehouse.html" target="_blank">View Project</a> — Analyzes multi-year visitor data.</li>
+
+    <li><strong>Movie Recommender System:</strong> <a href="recommender.html" target="_blank">View Project</a> — Collaborative filtering model.</li>
+
+    <li><strong>MLB Attendance Trends:</strong> <a href="mlb.html" target="_blank">View Project</a> — Attendance pattern analysis.</li>
+
+    <li><strong>Fuel Efficiency: MPG Prediction:</strong> <a href="MPG.html" target="_blank">View Project</a> — Regression and random forest modeling.</li>
+
+    <li><strong>Bricks of Time: LEGO Dataset:</strong> <a href="lego.html" target="_blank">View Project</a> — Trend and complexity analysis.</li>
+
+    <li><strong>Customer Churn Prediction:</strong> <a href="churn.html" target="_blank">View Project</a> — Random forest model.</li>
+
+    <li><strong>Children & Cost:</strong> <a href="childcare.html" target="_blank">View Project</a> — Data storytelling project.</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <p>Have a question or want to connect? Feel free to reach out:</p>
+
+  <p><strong>Email:</strong> <a href="mailto:cheri.l.beda@gmail.com">cheri.l.beda@gmail.com</a></p>
+</section>
 
 </body>
 </html>
